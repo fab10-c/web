@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Header</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__content">
+            <a href="index.html" class="header__logo">
+                <strong>Compra<span>Vendita</strong>
+            </a>
+            <ul class="header__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="area-privata.php">Buy&Sell</a></li>
+                <li><a href="#">List</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="header__profile">
+                <a href="login-form.php" class="button-small">Login</a>
+                <div class="icon-hamburger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        let item = document.querySelector('.icon-hamburger');
+        item.addEventListener("click", function () {
+            document.body.classList.toggle('menu-open');
+        });
+    </script>
+
+</body>
+
+</html>

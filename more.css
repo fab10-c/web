@@ -1,0 +1,28 @@
+.cover {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    background-size: cover;
+    color: white;
+}
+
+.text-title {
+    background: rgb(51, 51, 51);
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.text-p {
+    margin: 0;
+    background: rgb(101, 148, 250);
+    padding: 40px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .gm-1 {margin-top: 40px; padding: 0 20px;}
+    .cover {height: 120vh;}
+}

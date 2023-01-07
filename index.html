@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header__content">
+            <a href="index.html" class="header__logo">
+                <strong>Compra<span>Vendita</strong>
+            </a>
+            <ul class="header__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="area-privata.php">Buy&Sell</a></li>
+                <li><a href="#">List</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="header__profile">
+                <a href="login-form.php" class="button-small">Login</a>
+                <div class="icon-hamburger">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="grid hero">
+        <div class="col-50 pt-4 sma-text-center">
+            <h1 class="t1">BITCOIN</h1>
+            <h2 class="font-normal">Lorem ipsum</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum metus mi,
+                volutpat sit amet feugiat vel, tempor et tellus.
+                Phasellus consectetur at neque at congue.
+                Nam dolor neque, egestas fermentum interdum ut,
+            </p>
+            <a href="more.php" class="button">Read More...</a>
+        </div>
+        <div class="col-50 p-3 relative">
+            <img src="sfondo1.jpg" class="img-res img-round" alt="">
+        </div>
+    </div>
+
+    <div class="grid hero mr-1">
+        <div class="col-50 pt-3 relative">
+            <img src="about.jpg" class="img-res" alt="">
+        </div>
+        <div class="col-50 sma-text-center">
+            <h2 class="text-1">About Us</h2>
+            <p>
+                It is a long established fact that a reader will be distracted by the readable
+                content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content here,
+                content here', making it look like readable English.
+                Many desktop publishing packages and web page editors now use Lorem Ipsum
+                as their default model text, and a search for 'lorem ipsum' will uncover
+                many web sites still in their infancy. Various versions have evolved over
+                the years, sometimes by accident, sometimes on purpose (injected humour and
+                the like).
+            </p>
+        </div>
+    </div>
+
+    <div class="grid grid--center mb-4">
+        <div class="client-review col-25 mtm1-">
+            <img src="avatar.png" class="img-res" alt="">
+            <p class="text-review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="client-review col-25">
+            <img src="avatar.png" class="img-res" alt="">
+            <p class="text-review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="client-review col-25">
+            <img src="avatar.png" class="img-res" alt="">
+            <p class="text-review">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+
+    <footer class="footer pt-4 pb-4">
+        <div class="grid">
+            <div class="col-50 mt-2">
+                <h3>COMPRAVENDITA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ad quisq
+                    uam provident, quidem doloremque sapiente quam earum labore expedita accusantium eaque, accusamus
+                    nobis. Corrupti error, quis suscipit odio impedit quibusdam
+                </p>
+            </div>
+            <div class="col-25 mt-2">
+                <h3>Lorem</h3>
+                <ul>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                </ul>
+            </div>
+            <div class="col-25 mt-2">
+                <h3>Lorem</h3>
+                <ul>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                    <li>Lorem ipsum</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <p class="bottom-footer">
+        Template by Cicciogamer Joker - Free to use - <a href="">Privacy Policy</a>
+    </p>
+
+
+    <script>
+        let item = document.querySelector('.icon-hamburger');
+        item.addEventListener("click", function () {
+            document.body.classList.toggle('menu-open');
+        });
+    </script>
+</body>
+
+</html>

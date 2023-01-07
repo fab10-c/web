@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="more.css">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <!-- CONTENT -->
+    <section class="cover">
+        <div class="center">
+            <h1>Login</h1>
+            <form action="utility/login.php" method="post">
+                <div class="txt__field">
+                    <input type="text" name="username" id="username" required>
+                    <span></span>
+                    <label>Username</label>
+                </div>
+                <div class="txt__field">
+                    <input type="password" name="password" id="password" required>
+                    <span></span>
+                    <label>Password</label>
+                </div>
+                <div class="pass">Forgot Password?</div>
+                <input type="submit" name="submit" value="login">
+                <div class="signup__link">
+                    Not a member? <a href="register-form.php">Signup</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
